@@ -1,4 +1,4 @@
-# To-do list
+# Leaderboard
 
 > A simplified leaderboard that lists the name of a partcipant and their score.
 
