@@ -1,9 +1,11 @@
 import './style.css';
+import sendData from './modules/sendData';
+import loadData from './modules/Scores';
 
-function component() {
-  const element = document.createElement('div');
-
-  return element;
-}
-
-document.body.appendChild(component());
+loadData();
+document
+  .querySelector('.refresh-btn')
+  .addEventListener('click', () => window.location.reload());
+document
+  .querySelector('#submit-btn')
+  .addEventListener('click', () => sendData());
