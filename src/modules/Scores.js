@@ -10,9 +10,9 @@ let cellText;
 const listTable = async () => {
   try {
     const resPost = await axios(`${url}/games/j9Z2IwQVH3jsmZjNAYhp/scores/`);
-    for (var i = 0; i < resPost.data.result.length; i += 1) {
+    for (let i = 0; i < resPost.data.result.length; i += 1) {
       row = document.createElement('tr');
-      for (var j = 0; j < 2; j += 1) {
+      for (let j = 0; j < 2; j += 1) {
         if (j === 0) {
           cell = document.createElement('td');
           cellText = document.createTextNode(`${resPost.data.result[i].user}`);
