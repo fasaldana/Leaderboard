@@ -72,9 +72,10 @@ tr:nth-child(even) {
   width: 35vw;
 }
 
-.submit-btn {
+#submit-btn {
   align-self: flex-end;
-  width: 40% !important;
+  width: 30% !important;
+  height: 3em;
   padding: 0.1em 0.5em;
   box-shadow: 3px 3px;
 }
