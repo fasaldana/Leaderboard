@@ -12,6 +12,7 @@ const sendData = async () => {
     headers: { 'content-type': 'application/JSON' },
   });
   response.json();
+  window.location.reload();
 };
 
 export default sendData;
