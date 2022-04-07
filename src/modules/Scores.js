@@ -1,9 +1,11 @@
 import axios from 'axios';
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
-var list = document.querySelector('.scores-table');
+const list = document.querySelector('.scores-table');
 const table = document.getElementById('table');
-var cell, row, cellText;
+let cell;
+let row;
+let cellText;
 
 const listTable = async () => {
   try {
