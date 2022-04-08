@@ -5,13 +5,18 @@
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #b4b6ba;
 }
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+}
+
+th {
+  background-color: #2ed4d4d0;
 }
 
 td,
@@ -51,6 +56,12 @@ tr:nth-child(even) {
   box-shadow: 3px 3px;
 }
 
+.refresh-btn:active {
+  background-color: #ebfc18;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+
 .scores-table {
   margin-top: 20px;
   width: 35vw;
@@ -68,7 +79,7 @@ tr:nth-child(even) {
 }
 
 .add-scores form input {
-  height: 2em;
+  height: 3em;
   width: 35vw;
 }
 
@@ -78,4 +89,10 @@ tr:nth-child(even) {
   height: 3em;
   padding: 0.1em 0.5em;
   box-shadow: 3px 3px;
+}
+
+#submit-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
 }

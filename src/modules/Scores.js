@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
-const list = document.querySelector('.scores-table');
 const table = document.getElementById('table');
 let cell;
 let row;
@@ -27,7 +26,6 @@ const listTable = async () => {
       }
       table.appendChild(row);
     }
-    list.append(table);
   } catch (error) {
     console.log(error);
   }
