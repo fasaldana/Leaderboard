@@ -9,38 +9,33 @@
 - JavaScript
 - Webpack
 
-## Live version
-
-[See live version](https://fasaldana.github.io/todo_list/)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
+`git clone https://github.com/fasaldana/Leaderboard.git`
+
+This project uses an API for the leaderboard: [Check it out so you know how it works](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
+
 ### Prerequisites
 
 - Install webpack dependencies
-- lodash librrary needs to be installed.
+- Axios librrary needs to be installed.
 
 ### Setup
 
 run the following commands
 
+- npm install
 - npm install webpack webpack-cli --save-dev
-- npm install --save lodash
+- npm install --save axios
 - npm install --save-dev webpack-dev-server
 
-### Run tests
+### Usage
 
-For testing you can do it with the command:
+For running in a local server, you can do it with the command:
 
 - npm start
-
-### Deployment
-
-You can build the project using the command:
-
-- npm run build
 
 ## Authors
 
@@ -54,7 +49,7 @@ You can build the project using the command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/fasaldana/Leaderboard/issues).
 
 ## Show your support
 
@@ -62,4 +57,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/fasaldana/Leaderboard/blob/feature/MIT.md) licensed.
