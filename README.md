@@ -26,13 +26,14 @@ This project uses an API for the leaderboard: [Check it out so you know how it w
 
 run the following commands
 
+- npm install
 - npm install webpack webpack-cli --save-dev
 - npm install --save axios
 - npm install --save-dev webpack-dev-server
 
-### Run tests
+### Usage
 
-For testing you can do it with the command:
+For running in a local server, you can do it with the command:
 
 - npm start
 
@@ -53,7 +54,3 @@ Feel free to check the [issues page](https://github.com/fasaldana/Leaderboard/is
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
